@@ -20,6 +20,9 @@ namespace WordsApp
             string myLowercaseString = myTestString.ToLower();
 
             string[] words = myTestString.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            int vowelCount = 0;
+            int wordCount = words.Length;
+            string longestWord = string.Empty;
 
             foreach (var character in myTestString);
             {
@@ -30,7 +33,7 @@ namespace WordsApp
                 }
             }
 
-            for (var i = 0; i < myTestString.Length, i++);
+            for (var i = 0; i < myTestString.Length; i++);
             {
                 var character = myTestString[i];
             }
