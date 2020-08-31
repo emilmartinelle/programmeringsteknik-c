@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{FE36C687-9E1C-449F-8380-4AF71BCE78C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session04Exception", "Exception\Session04Exception.csproj", "{16ACD1E1-127D-4042-BA24-73839DFA41F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session04Nullable", "Session04Nullable\Session04Nullable.csproj", "{D103B80E-BC25-4200-9E4B-64B05635792E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session04Strings", "Session04Strings\Session04Strings.csproj", "{EEFFD5A2-02B9-4CDF-8013-133A7A8A2A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session04MultiplaArrayer", "Session04MultiplaArrayer\Session04MultiplaArrayer.csproj", "{9F6F024C-0169-4462-97C9-0438DAF89221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session04Tidshantering", "Session04Tidshantering\Session04Tidshantering.csproj", "{CC0E2813-757C-4B00-9844-CA68256AFA6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE36C687-9E1C-449F-8380-4AF71BCE78C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE36C687-9E1C-449F-8380-4AF71BCE78C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE36C687-9E1C-449F-8380-4AF71BCE78C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE36C687-9E1C-449F-8380-4AF71BCE78C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ACD1E1-127D-4042-BA24-73839DFA41F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ACD1E1-127D-4042-BA24-73839DFA41F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ACD1E1-127D-4042-BA24-73839DFA41F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ACD1E1-127D-4042-BA24-73839DFA41F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D103B80E-BC25-4200-9E4B-64B05635792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D103B80E-BC25-4200-9E4B-64B05635792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D103B80E-BC25-4200-9E4B-64B05635792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D103B80E-BC25-4200-9E4B-64B05635792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFFD5A2-02B9-4CDF-8013-133A7A8A2A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFFD5A2-02B9-4CDF-8013-133A7A8A2A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFFD5A2-02B9-4CDF-8013-133A7A8A2A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFFD5A2-02B9-4CDF-8013-133A7A8A2A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6F024C-0169-4462-97C9-0438DAF89221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6F024C-0169-4462-97C9-0438DAF89221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6F024C-0169-4462-97C9-0438DAF89221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6F024C-0169-4462-97C9-0438DAF89221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0E2813-757C-4B00-9844-CA68256AFA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0E2813-757C-4B00-9844-CA68256AFA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0E2813-757C-4B00-9844-CA68256AFA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0E2813-757C-4B00-9844-CA68256AFA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44528348-6F3D-4EB1-8C7A-DD20A33C13BF}
+	EndGlobalSection
+EndGlobal
