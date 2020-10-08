@@ -5,54 +5,43 @@ namespace WordsApp
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            Console.Write("Enter a string, preferrably containing a sentence");
+            // Skriv en konsolapplikation som tar emot en skriven text.
+            Console.WriteLine("Skriv en mening: ");
 
-            char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u', 'y', 'å', 'ä', 'ö', };
+            char[] letters = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'å', 'ä', 'ö', };
 
             string enteredString = Console.ReadLine();
             string lowercaseString = enteredString.ToLower();
 
-
-
-            string myTestString = "this is a test";
-            string myLowercaseString = myTestString.ToLower();
-
-            string[] words = myTestString.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-            int vowelCount = 0;
+            string[] words = lowercaseString.Split(" ", StringSplitOptions.RemoveEmptyEntries);
+            int letterCount = 0;
             int wordCount = words.Length;
-            string longestWord = string.Empty;
 
-            foreach (var character in myTestString);
+            int letterPerWords = (wordCount);
+
+
+            foreach (var word in words)
             {
-             //var normalizedCharacter =char.ToLower(character)
-             if (vowels.Contains(character))
+                foreach (var character in word)
                 {
-
+                    if (letters.Contains(character))
+                    {
+                        letterCount++;
+                    }
                 }
-            }
 
-            for (var i = 0; i < myTestString.Length; i++);
-            {
-                var character = myTestString[i];
-            }
+                // Console.WriteLine("Longest word: " + longestWord + ", " + longestWord.Length + " characters.");
 
+            
+            }
             Console.WriteLine("Word count: " + wordCount);
-            Console.WriteLine("Vowel count: " + VowelCount);
-            Console.WriteLine("Word count: " + longestWord + ", " +  );
+            Console.WriteLine("Letter count: " + letterCount);
+
+            Console.WriteLine("Letter Per Words: " + letterPerWords);
+            //Console.WriteLine("Letter per words: " + letterPerWords);
         }
     }
 }
-
-
-//Skriv en konsollapplikation som tar emot skriven text
-
-/*/ Vi vill ha följande:
- * Antal ord?
- * Antal vokaler?
- * Vilket är det längsta ordet?
- * 
- * Word count 
- * Vowel count
- * Longest word/*/

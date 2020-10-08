@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session06Konstruktor", "Session06Konstruktor\Session06Konstruktor.csproj", "{DA98B1B3-A2DC-43A1-83BB-F680A29B0F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session06Animal", "Session06Animal\Session06Animal.csproj", "{6BCE14A8-C527-469F-AC5E-5B81D5782C44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA98B1B3-A2DC-43A1-83BB-F680A29B0F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA98B1B3-A2DC-43A1-83BB-F680A29B0F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA98B1B3-A2DC-43A1-83BB-F680A29B0F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA98B1B3-A2DC-43A1-83BB-F680A29B0F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCE14A8-C527-469F-AC5E-5B81D5782C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCE14A8-C527-469F-AC5E-5B81D5782C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCE14A8-C527-469F-AC5E-5B81D5782C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCE14A8-C527-469F-AC5E-5B81D5782C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4766E46-EC92-4C2F-9D15-D3084F7B8112}
+	EndGlobalSection
+EndGlobal

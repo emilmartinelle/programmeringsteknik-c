@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordsApp", "WordsApp\WordsApp.csproj", "{2A354C0F-777C-4162-9600-C2681121E9D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hans-Johnnys butik", "Hans-Johnnys butik\Hans-Johnnys butik.csproj", "{7E35A406-E724-422E-B1FF-60E41D509058}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A354C0F-777C-4162-9600-C2681121E9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A354C0F-777C-4162-9600-C2681121E9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A354C0F-777C-4162-9600-C2681121E9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A354C0F-777C-4162-9600-C2681121E9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E35A406-E724-422E-B1FF-60E41D509058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E35A406-E724-422E-B1FF-60E41D509058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E35A406-E724-422E-B1FF-60E41D509058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E35A406-E724-422E-B1FF-60E41D509058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F2786697-DB03-41D4-AA8B-EE84546D8F8B}
+		SolutionGuid = {B0C5259A-3AB2-4810-82EC-A4C3AC21DA7C}
 	EndGlobalSection
 EndGlobal

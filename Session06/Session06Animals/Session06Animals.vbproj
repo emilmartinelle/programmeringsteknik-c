@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Session06Animals</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Animal.cs" />
+    <None Remove="Chicken.cs" />
+    <None Remove="Cow.cs" />
+    <None Remove="IBarnyardAnimal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Chicken.cs" />
+    <Compile Include="Cow.cs" />
+    <Compile Include="IBarnyardAnimal.cs" />
+  </ItemGroup>
+
+</Project>
